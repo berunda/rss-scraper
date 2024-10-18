@@ -1,0 +1,8 @@
+@host = http://localhost:8080
+@contentType = application/json
+
+# /healthz
+GET {{host}}/v1/error
+
+# /error
+GET {{host}}/v1/error
